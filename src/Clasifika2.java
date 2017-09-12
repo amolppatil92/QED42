@@ -55,9 +55,9 @@ public class Clasifika2 {
 		int i=0;
 		boolean sorted = true;
 		for (WebElement webElement : price) {
-			String temp = webElement.getText();
+		String temp = webElement.getText();
 			
-			String[] arr1 = temp.split(" ");
+		String[] arr1 = temp.split(" ");
 		String arr2 = arr1[0].replace("$","");		
 		String arr3=arr2.replace(",","");
 		arrPrice[i]=Long.parseLong(arr3);
